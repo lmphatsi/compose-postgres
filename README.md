@@ -20,9 +20,10 @@ This Compose file contains the following environment variables:
 * `PGADMIN_DEFAULT_EMAIL` the default value is **pgadmin4@pgadmin.org**
 * `PGADMIN_DEFAULT_PASSWORD` the default value is **admin**
 
-## Access to postgres: 
-* `localhost:5432`
-* **Username:** postgres (as a default)
+## Access to postgres from host (via Terminal): 
+* Install pg client if not already installed: 'sudo apt-get install postgresql-client'
+* psql -h 127.0.0.1 -p 5432 -U postgres
+
 * **Password:** changeme (as a default)
 
 ## Access to PgAdmin: 
